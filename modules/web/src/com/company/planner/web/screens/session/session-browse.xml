@@ -18,8 +18,13 @@
             </loader>
         </collection>
     </data>
-    <dialogMode height="600"
-                width="800"/>
+    <dialogMode height="auto"
+                width="auto"/>
+    <facets>
+        <editorScreen id="sessionEditDialog" container="sessionsDc" entityClass="com.company.planner.entity.Session"
+                      screenClass="com.company.planner.web.screens.session.SessionEdit" openMode="DIALOG"
+                      editMode="EDIT"/>
+    </facets>
     <layout expand="sessionsTabSheet"
             spacing="true">
         <filter id="filter"
